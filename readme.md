@@ -54,17 +54,17 @@ Estudar este tema nos ajuda a:
 ### Nossos Gráficos
 
 **Previsão de categoria com perfil demográfico:**
-![Previsão de categoria com perfil demográfico](imagens/arvore_categoria_idade.png)
+![Previsão de categoria com perfil demográfico](https://github.com/GGB0T11/qp3Oscar/blob/main/imagens/arvore_categoria_idade.png?raw=true)
 
 - O que mostra: Mostra, passo a passo, como o modelo toma decisões com base nas variáveis para prever a categoria de premiação.
 
 **Kmeans idade X raça**
-![Kmeans idade X raça](imagens/kmeans_idade_raca.png)
+![Kmeans idade X raça](https://github.com/GGB0T11/qp3Oscar/blob/main/imagens/kmeans_idade_raca.png?raw=true)
 
 - O que mostra: Mostra um Gráfico de correlação entre Idade e Raça
 
 **Kmeans por década**
-![Kmeans por década](imagens/kmeans_por_decada.png)
+![Kmeans por década](https://github.com/GGB0T11/qp3Oscar/blob/main/imagens/kmeans_por_decada.png?raw=true)
 
 - O que mostra: Mostra a quantidade de vencedores de cada cluster em cada década
 
@@ -170,8 +170,8 @@ Esse grupo representa os mais velhos entre os vencedores, todos brancos, hétero
 - **Pedro:** Fez a limpeza e organização dos dados do dataset
 - **Arthur:** Criou todos os gráficos e visualizações (histogramas, boxplots, clusters)
 - **Cibele:** Escreveu os textos explicativos, resumo da análise e conclusões
-- **Camila** Aplicou o algoritmo K-Means e fez a análise dos clusters
-- **Rafa** Tratou os valores ausentes, codificações e melhorou os modelos
+- **Camila:** Aplicou o algoritmo K-Means e fez a análise dos clusters
+- **Rafa:** Tratou os valores ausentes, codificações e melhorou os modelos
 
 ---
 
@@ -180,3 +180,5 @@ Esse grupo representa os mais velhos entre os vencedores, todos brancos, hétero
 
 - **Kmeans:** [kmeans_oscar.ipynb](https://colab.research.google.com/drive/1z3M3odgcm9rTv0Ivmt7P6N7QRdsMcC0a?usp=sharing)
 - **Decision Tree:** [Decision_tree.ipynb](https://colab.research.google.com/drive/1EJ5tDORvC5tPC9SSprMqp03KZUoYCg5o?usp=sharing)
+
+**Link do github:** [github](https://github.com/GGB0T11/qp3Oscar)
