@@ -1,0 +1,110 @@
+
+-> Composição por Cluster
+               age      race   religion  orientation
+cluster                                             
+0        43.655172  5.000000  10.068966     0.379310
+1        37.886275  4.992157  11.415686     4.964706
+2        41.037037  1.222222   9.481481     4.851852
+3        59.932692  5.000000  11.480769     4.971154
+
+-> Cluster 0
+Tamanho: 29
+Raças mais comuns:
+ race_ethnicity
+White    29
+Name: count, dtype: int64
+Religiões mais comuns:
+ religion
+10    11
+19     6
+2      6
+Name: count, dtype: int64
+Orientações mais comuns:
+ sexual_orientation
+Bisexual    20
+Gay          7
+Lesbian      2
+Name: count, dtype: int64
+Categorias mais premiadas:
+ category
+Best Director    9
+Best Actress     8
+Best Actor       6
+Name: count, dtype: int64
+
+-> Cluster 1
+Tamanho: 255
+Raças mais comuns:
+ race_ethnicity
+White          253
+Multiracial      2
+Name: count, dtype: int64
+Religiões mais comuns:
+ religion
+10    159
+19     37
+13     29
+Name: count, dtype: int64
+Orientações mais comuns:
+ sexual_orientation
+Straight             248
+Na                     5
+Matter of Dispute      2
+Name: count, dtype: int64
+Categorias mais premiadas:
+ category
+Best Actress               71
+Best Director              51
+Best Supporting Actress    50
+Name: count, dtype: int64
+
+-> Cluster 2
+Tamanho: 27
+Raças mais comuns:
+ race_ethnicity
+Black       14
+Hispanic     8
+Asian        4
+Name: count, dtype: int64
+Religiões mais comuns:
+ religion
+10    17
+5      2
+3      2
+Name: count, dtype: int64
+Orientações mais comuns:
+ sexual_orientation
+Straight             24
+Na                    2
+Matter of Dispute     1
+Name: count, dtype: int64
+Categorias mais premiadas:
+ category
+Best Supporting Actress    10
+Best Supporting Actor       9
+Best Actor                  6
+Name: count, dtype: int64
+
+-> Cluster 3
+Tamanho: 104
+Raças mais comuns:
+ race_ethnicity
+White    104
+Name: count, dtype: int64
+Religiões mais comuns:
+ religion
+10    69
+13    14
+19    13
+Name: count, dtype: int64
+Orientações mais comuns:
+ sexual_orientation
+Straight    101
+Na            3
+Name: count, dtype: int64
+Categorias mais premiadas:
+ category
+Best Supporting Actor    31
+Best Actor               26
+Best Director            24
+Name: count, dtype: int64

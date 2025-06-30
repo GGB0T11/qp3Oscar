@@ -1,0 +1,137 @@
+============================================================
+ANÁLISE EXPLORATÓRIA BÁSICA DE DADOS
+============================================================
+
+Arquivo 'world_ampas_oscar_winner_demographics.csv' carregado com sucesso!
+
+============================================================
+INFORMAÇÕES BÁSICAS DO DATASET
+============================================================
+
+Tamanho do dataset: 415 linhas e 10 colunas
+
+Primeiras 5 linhas do dataset:
+               name  birth_year  ...               category                   movie
+0    Marie Dressler        1868  ...           Best Actress            Min and Bill
+1     George Arliss        1868  ...             Best Actor                Desraeli
+2      Edmund Gwenn        1875  ...  Best Supporting Actor  Miracle on 34th Street
+3    Charles Coburn        1877  ...  Best Supporting Actor    The More the Merrier
+4  Lionel Barrymore        1878  ...             Best Actor             A Free Soul
+
+[5 rows x 10 columns]
+
+Tipos de dados de cada coluna:
+name                  object
+birth_year             int64
+birth_date            object
+birthplace            object
+race_ethnicity        object
+religion              object
+sexual_orientation    object
+year_edition           int64
+category              object
+movie                 object
+dtype: object
+
+Valores ausentes por coluna:
+birth_date      1
+religion      256
+dtype: int64
+
+============================================================
+ESTATÍSTICAS DESCRITIVAS
+============================================================
+
+Estatísticas para colunas numéricas:
+       birth_year  year_edition
+count      415.00        415.00
+mean      1928.85       1972.87
+std         25.72         24.06
+min       1868.00       1927.00
+25%       1908.00       1952.50
+50%       1928.00       1973.00
+75%       1949.00       1994.00
+max       1990.00       2014.00
+Estatísticas salvas em visualizacoes/estatisticas_numericas.csv
+
+Contagem das principais categorias:
+
+Coluna 'name' tem 348 valores únicos (primeiros 5):
+name
+John Ford            4
+Katharine Hepburn    4
+Daniel Day-Lewis     3
+Frank Capra          3
+Walter Brennan       3
+Name: count, dtype: int64
+
+Coluna 'birth_date' tem 345 valores únicos (primeiros 5):
+birth_date
+1894-02-01    4
+1907-05-12    4
+1902-07-01    3
+1949-06-22    3
+1894-07-25    3
+Name: count, dtype: int64
+
+Coluna 'birthplace' tem 233 valores únicos (primeiros 5):
+birthplace
+New York City      31
+London, England    22
+Los Angeles, Ca    14
+Chicago, Il        12
+Brooklyn, Ny        9
+Name: count, dtype: int64
+
+============================================================
+CRIANDO VISUALIZAÇÕES
+============================================================
+Todos os gráficos serão salvos na pasta 'visualizacoes'
+
+Criando histogramas para variáveis numéricas...
+✓ Histogramas criados com sucesso!
+
+Criando gráficos de barras para variáveis categóricas...
+✓ Gráficos de barras criados com sucesso!
+
+Criando matriz de correlação...
+✓ Matriz de correlação criada com sucesso!
+
+Correlações mais fortes:
+• birth_year e year_edition: 0.88
+
+Criando gráfico de dispersão para as variáveis mais correlacionadas...
+✓ Gráfico de dispersão criado com sucesso!
+
+Criando boxplots para variáveis numéricas...
+✓ Boxplots criados com sucesso!
+
+Criando gráficos comparativos para grupos de 'race_ethnicity'...
+✓ Gráficos comparativos criados com sucesso!
+
+============================================================
+RESUMO DA ANÁLISE
+============================================================
+
+Dataset analisado: world_ampas_oscar_winner_demographics.csv
+Tamanho: 415 linhas x 10 colunas
+Colunas numéricas: 2
+Colunas categóricas: 8
+Valores ausentes: Sim
+
+Arquivos gerados:
+- Estatísticas numéricas (CSV)
+- Histogramas
+- Gráficos de barras
+- Matriz de correlação
+- Gráfico de dispersão
+- Boxplots
+- Gráficos comparativos
+
+Todos os arquivos foram salvos na pasta 'visualizacoes'
+
+
+============================================================
+ANÁLISE CONCLUÍDA!
+============================================================
+Você pode usar estas visualizações no seu relatório do projeto.

@@ -1,0 +1,21 @@
+
+-> Relatório de Classificação
+                         precision    recall  f1-score   support
+
+             Best Actor       0.26      0.45      0.33        11
+           Best Actress       0.56      0.82      0.67        17
+          Best Director       0.43      0.62      0.51        21
+  Best Supporting Actor       0.38      0.17      0.23        18
+Best Supporting Actress       1.00      0.06      0.12        16
+
+               accuracy                           0.43        83
+              macro avg       0.53      0.43      0.37        83
+           weighted avg       0.53      0.43      0.38        83
+
+Acurácia: 0.43
+
+-> Importância das Variáveis
+age: 0.66
+race: 0.05
+religion: 0.23
+orientation: 0.06
